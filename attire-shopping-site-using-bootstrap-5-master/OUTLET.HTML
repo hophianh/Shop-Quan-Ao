@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Sản phẩm</title>
+  <link rel = "stylesheet" href = "bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <link rel = "stylesheet" href = "css/main.css">
+  <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+
+<!-- navbar -->
+<nav class = "navbar navbar-expand-lg navbar-light fixed-top">
+    <div class = "container container-card">
+        <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
+            <span class = "text-uppercase fw-lighter fa-2x ms-2 text-white">PY</span>
+        </a>
+
+        <div class = "order-lg-2 nav-btns">
+            <button type = "button" class = "btn position-relative">
+                <i class = "fa fa-search text-white"></i>
+            </button>
+            <button type = "button" class = "btn position-relative"> 
+                <a href="signup.html">
+                    <i class = "fa fa-user text-white"></i>
+                </a>
+            </button>
+            <button type = "button" class = "btn position-relative">
+                <a href="cart.html">
+                    <i class = "fa fa-shopping-cart text-white">
+                        <span class="quantity">0</span>
+                    </i>
+                </a>
+            </button>
+        </div>
+
+        <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
+            <span class = "navbar-toggler-icon"></span>
+        </button>
+
+        <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
+            <ul class = "navbar-nav mx-auto text-center">
+                <li class = "nav-item px-2 py-2">
+                    <a class = "nav-link text-uppercase text-white" href = "index.html">Trang chủ</a>
+                </li>
+                <li class = "nav-item px-2 py-2">
+                    <a class = "nav-link text-uppercase text-white" href = "cart.html">sản phẩm</a>
+                </li>
+                <li class = "nav-item px-2 py-2">
+                    <a class = "nav-link text-uppercase text-white" href = "OUTLET.HTML">OUTLET</a>
+                </li>
+                <li class = "nav-item px-2 py-2 border-0 pr-2">
+                    <a class = "nav-link text-uppercase text-white" href = "PHOBIEN.HTML">phổ biến</a>
+                </li>
+            </ul>
+        </div>
+        <div class="list"></div>
+    </div>
+</nav>
+<!-- end of navbar -->
+<div class="row cart-container">
+    
+    <div id="row wrapper">
+        <div class="cart-icon-top">
+    </div>
+    
+    <div class="cart-icon-bottom">
+    </div>
+    
+    <div id="checkout">
+        <a href="snippets.html">Thanh toán</a>
+    </div>
+<!-- sidebar -->
+    <div id="sidebar">
+        <h3>CART</h3>
+        <div id="cart">
+            <span class="empty">No items in cart.</span>       
+        </div>
+        
+        <h3>CATEGORIES</h3>
+        <div class="checklist categories">
+            <ul>
+                <li><a href="cart.html">Tất cả</a></li>
+                <li><a href="jacket.html">Jackets</a></li>
+                <li><a href="pant.html">Quần</a></li>
+                <li><a href="TEE.HTML">Áo phông</a></li>
+                <li><a href="sold.html">Phụ kiện</a></li>
+                <li><a href="sold.html">Giày</a></li>
+                <li><a href="sold.html">Trang sức</a></li>
+                <li><a href="sold.html">Khác</a></li>
+            </ul>
+        </div>
+        
+
+        
+        <h3>SIZES</h3>
+        <div class="checklist sizes">
+            <ul>
+                <li><a href="">XS</a></li>
+                <li><a href="">S</a></li>
+                <li><a href="">M</a></li>
+            </ul>
+            
+            <ul>
+                <li><a href="">L</a></li>
+                <li><a href="">XL</a></li>
+                <li><a href="">XXL</a></li>
+            </ul>        
+        </div>
+        
+         <h3>PRICE RANGE</h3>
+         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/price-range.png" alt="" />
+    </div>
+    <div id="grid row">
+        <div class="product">
+            <div class="info-large">
+                <h4>FLUTED HEM DRESS</h4>
+                <div class="sku">
+                    PRODUCT SKU: <strong>89356</strong>
+                </div>
+                 
+                <div class="price-big">
+                    <span>$43</span> $̶3̶̶9̶  -> $20
+                </div>
+                 
+                <h3>COLORS</h3>
+                <div class="colors-large">
+                    <ul>
+                        <li><a href="" style="background:#222"></a></li>
+                        <li><a href="" style="background:#6e8cd5"></a></li>
+                        <li><a href="" style="background:#f56060"></a></li>
+                        <li><a href="" style="background:#44c28d"></a></li>
+                    </ul> 
+                </div>
+    
+                <h3>SIZE</h3>
+                <div class="sizes-large">
+                     <span>XS</span>
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                    <span>XXL</span>
+                </div>
+                
+                <button class="add-cart-large">Thêm vào giỏ</button>                          
+                             
+            </div>
+            <div class="make3D">
+                <div class="product-front">
+                    <div class="shadow"></div>
+                    <img src="images/aokhoa1-2.jpg" alt="" />
+                    <div class="image_overlay"></div>
+                    <div class="add_to_cart">Thêm vào giỏ</div>
+                    <div class="view_gallery">Chi tiết</div>                
+                    <div class="stats">        	
+                        <div class="stats-container">
+                            <span class="product_price">$39 -> $20</span>
+                            <span class="product_name">JACKET-JEAN V2</span>    
+                            <p>Sản phẩm mùa hè</p>                                            
+                            
+                            <div class="product-options">
+                            <strong>SIZES</strong>
+                            <span>XS, S, M, L, XL, XXL</span>
+                            <strong>COLORS</strong>
+                            <div class="colors">
+                                <div class="c-blue"><span></span></div>
+                                <div class="c-red"span></div>
+                                <div class="c-white"></div>
+                                <div class="c-green"></div>
+                            </div>
+                        </div>                       
+                        </div>                         
+                    </div>
+                </div>
+                
+                <div class="product-back">
+                    <div class="shadow"></div>
+                    <div class="carousel">
+                        <ul class="carousel-container">
+                            <li><img src="images/aokhoac1.jpg" alt="" /></li>
+                            <li><img src="images/aokhoa1-2.jpg" alt="" /></li>
+                            <li><img src="images/aokhoac1.jpg" alt="" /></li>
+                        </ul>
+                        <div class="arrows-perspective">
+                            <div class="carouselPrev">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                            <div class="carouselNext">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-back">
+                        <div class="cy"></div>
+                        <div class="cx"></div>
+                    </div>
+                </div>	  
+            </div>	
+        </div>
+        
+        
+        <div class="product">
+        <div class="info-large">
+                <h4>PLEAT PRINTED DRESS</h4>
+                <div class="sku">
+                    PRODUCT SKU: <strong>89356</strong>
+                </div>
+                 
+                <div class="price-big">
+                    <span>$43</span> $39
+                </div>
+                 
+                <h3>COLORS</h3>
+                <div class="colors-large">
+                    <ul>
+                        <li><a href="" style="background:#222"></a></li>
+                        <li><a href="" style="background:#6e8cd5"></a></li>
+                        <li><a href="" style="background:#f56060"></a></li>
+                        <li><a href="" style="background:#44c28d"></a></li>
+                    </ul> 
+                </div>
+    
+                <h3>SIZE</h3>
+                <div class="sizes-large">
+                     <span>XS</span>
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                    <span>XXL</span>
+                </div>
+                
+                <button class="add-cart-large">Thêm vào giỏ</button>                          
+                             
+            </div>
+            <div class="make3D">
+                <div class="product-front">
+                    <div class="shadow"></div>
+                    <img src="images/bomber-v1.jpg" alt="" />
+                    <div class="image_overlay"></div>
+                    <div class="add_to_cart">Thêm vào giỏ</div>
+                    <div class="view_gallery">Chi tiết</div>
+                    <div class="stats">        	
+                        <div class="stats-container">
+                            <span class="product_price">$50 -> $20</span>
+                            <span class="product_name">BOMBER-V1</span>    
+                            <p>Sản phẩm mùa hè</p>                                            
+                            
+                            <div class="product-options">
+                            <strong>SIZES</strong>
+                            <span>XS, S, M, L, XL, XXL</span>
+                            <strong>COLORS</strong>
+                            <div class="colors">
+                                <div class="c-blue"></div>
+                                <div class="c-red"></div>
+                                <div class="c-white"></div>
+                                <div class="c-green"></div>
+                            </div>
+                        </div>                       
+                        </div>                         
+                    </div>
+                </div>
+                
+                <div class="product-back">
+                    <div class="shadow"></div>
+                    <div class="carousel">
+                        <ul class="carousel-container">
+                            <li><img src="images/bomber-v1.jpg" alt="" /></li>
+                            <li><img src="images/bomber-v1.jpg" alt="" /></li>
+                            <li><img src="images/bomber-v1.jpg" alt="" /></li>
+                        </ul>
+                        <div class="arrows-perspective">
+                            <div class="carouselPrev">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                            <div class="carouselNext">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-back">
+                        <div class="cy"></div>
+                        <div class="cx"></div>
+                    </div>
+                </div>	  
+            </div>	
+        </div>
+        
+        <div class="product">
+        <div class="info-large">
+                <h4>FLOWY SHIRT DRESS</h4>
+                <div class="sku">
+                    PRODUCT SKU: <strong>89356</strong>
+                </div>
+                 
+                <div class="price-big">
+                    <span>$43</span> $39
+                </div>
+                 
+                <h3>COLORS</h3>
+                <div class="colors-large">
+                    <ul>
+                        <li><a href="" style="background:#222"></a></li>
+                        <li><a href="" style="background:#6e8cd5"></a></li>
+                        <li><a href="" style="background:#f56060"></a></li>
+                        <li><a href="" style="background:#44c28d"></a></li>
+                    </ul> 
+                </div>
+    
+                <h3>SIZE</h3>
+                <div class="sizes-large">
+                     <span>XS</span>
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                    <span>XXL</span>
+                </div>
+                
+                <button class="add-cart-large">Thêm vào giỏ</button>                          
+                             
+            </div>
+            <div class="make3D">        
+                <div class="product-front">
+                    <div class="shadow"></div>
+                    <img src="images/bomber-v2.jpg" alt="" />
+                    <div class="image_overlay"></div>
+                    <div class="add_to_cart">Thêm vào giỏ</div>
+                    <div class="view_gallery">Chi tiết</div>
+                    <div class="stats">        	
+                        <div class="stats-container">
+                            <span class="product_price">$50 -> $20</span>
+                            <span class="product_name">BOMBER-V2-XX</span>    
+                            <p>Sản phẩm mùa hè</p>                                            
+                            
+                            <div class="product-options">
+                            <strong>SIZES</strong>
+                            <span>XS, S, M, L, XL, XXL</span>
+                            <strong>COLORS</strong>
+                            <div class="colors">
+                                <div class="c-white"><span></span></div>
+                                <div class="c-green"><span></span></div>
+                                <div class="c-blue"></div>
+                                <div class="c-red"></div>
+                            </div>
+                        </div>                       
+                        </div>                         
+                    </div>
+                </div>
+                
+                <div class="product-back">
+                    <div class="shadow"></div>
+                    <div class="carousel">
+                        <ul class="carousel-container">
+                            <li><img src="images/bomber-v2.jpg" alt="" /></li>
+                            <li><img src="images/bomber-v2.jpg" alt="" /></li>
+                            <li><img src="images/bomber-v2.jpg" alt="" /></li>
+                        </ul>
+                        <div class="arrows-perspective">
+                            <div class="carouselPrev">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                            <div class="carouselNext">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-back">
+                        <div class="cy"></div>
+                        <div class="cx"></div>
+                    </div>
+                </div>	  
+            </div>	
+        </div>
+        
+        
+        <div class="product">
+        <div class="info-large">
+                <h4>DOUBLE LAYER DRESS</h4>
+                <div class="sku">
+                    PRODUCT SKU: <strong>89356</strong>
+                </div>
+                 
+                <div class="price-big">
+                    <span>$43</span> $39
+                </div>
+                 
+                <h3>COLORS</h3>
+                <div class="colors-large">
+                    <ul>
+                        <li><a href="" style="background:#222"></a></li>
+                        <li><a href="" style="background:#6e8cd5"></a></li>
+                        <li><a href="" style="background:#f56060"></a></li>
+                        <li><a href="" style="background:#44c28d"></a></li>
+                    </ul> 
+                </div>
+    
+                <h3>SIZE</h3>
+                <div class="sizes-large">
+                     <span>XS</span>
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                    <span>XXL</span>
+                </div>
+                
+                <button class="add-cart-large">Thêm vào giỏ</button>                          
+                             
+            </div>
+            <div class="make3D">
+                <div class="product-front">
+                    <div class="shadow"></div>
+                    <img src="images/jk-jean.jpg" alt="" />
+                    <div class="image_overlay"></div>
+                    <div class="add_to_cart">Thêm vào giỏ</div>
+                    <div class="view_gallery">Chi tiết</div>
+                    <div class="stats">        	
+                        <div class="stats-container">
+                            <span class="product_price">$29 -> $19</span>
+                            <span class="product_name">JACKET-STACK</span>    
+                            <p>Sản phẩm mùa hè</p>                                            
+                            
+                            <div class="product-options">
+                            <strong>SIZES</strong>
+                            <span>XS, S, M, L, XL, XXL</span>
+                            <strong>COLORS</strong>
+                            <div class="colors">
+                                <div class="c-red"><span></span></div>
+                                <div class="c-white"><span></span></div>
+                                <div class="c-blue"></div>
+                                <div class="c-green"></div>
+                            </div>
+                        </div>                       
+                        </div>                         
+                    </div>
+                </div>
+                
+                <div class="product-back">
+                    <div class="shadow"></div>
+                    <div class="carousel">
+                        <ul class="carousel-container">
+                            <li><img src="images/jk-jean.jpg" alt="" /></li>
+                            <li><img src="images/jk-jean2.jpg" alt="" /></li>
+                            <li><img src="images/jk-jean.jpg" alt="" /></li>
+                        </ul>
+                        <div class="arrows-perspective">
+                            <div class="carouselPrev">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                            <div class="carouselNext">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-back">
+                        <div class="cy"></div>
+                        <div class="cx"></div>
+                    </div>
+                </div>	  
+            </div>	
+        </div>
+        
+        <div class="product">
+        <div class="info-large">
+                <h4>BEAD DETAIL DRESS</h4>
+                <div class="sku">
+                    PRODUCT SKU: <strong>89356</strong>
+                </div>
+                 
+                <div class="price-big">
+                    <span>$43</span> $39
+                </div>
+                 
+                <h3>COLORS</h3>
+                <div class="colors-large">
+                    <ul>
+                        <li><a href="" style="background:#222"></a></li>
+                        <li><a href="" style="background:#6e8cd5"></a></li>
+                        <li><a href="" style="background:#f56060"></a></li>
+                        <li><a href="" style="background:#44c28d"></a></li>
+                    </ul> 
+                </div>
+    
+                <h3>SIZE</h3>
+                <div class="sizes-large">
+                     <span>XS</span>
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                    <span>XXL</span>
+                </div>
+                
+                <button class="add-cart-large">Thêm vào giỏ</button>                          
+                             
+            </div>
+            <div class="make3D">
+                <div class="product-front">
+                    <div class="shadow"></div>
+                    <img src="images/jk-stack.jpg" alt="" />
+                    <div class="image_overlay"></div>
+                    <div class="add_to_cart">Thêm vào giỏ</div>
+                    <div class="view_gallery">Chi tiết</div>
+                    <div class="stats">        	
+                        <div class="stats-container">
+                            <span class="product_price">$39 -> $29</span>
+                            <span class="product_name">JACKET-STACK V2</span>    
+                            <p>Sản phẩm mùa hè</p>                                            
+                            
+                            <div class="product-options">
+                            <strong>SIZES</strong>
+                            <span>XS, S, M, L, XL, XXL</span>
+                            <strong>COLORS</strong>
+                            <div class="colors">
+                                <div class="c-blue"><span></span></div>
+                                <div class="c-white"><span></span></div>
+                                <div class="c-red"></div>
+                                <div class="c-green"></div>
+                            </div>
+                        </div>                       
+                        </div>                         
+                    </div>
+                </div>
+                
+                <div class="product-back">
+                    <div class="shadow"></div>
+                    <div class="carousel">
+                        <ul class="carousel-container">
+                            <li><img src="images/jk-stack.jpg" alt="" /></li>
+                            <li><img src="images/jk-stack2.jpg" alt="" /></li>
+                        </ul>
+                        <div class="arrows-perspective">
+                            <div class="carouselPrev">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                            <div class="carouselNext">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-back">
+                        <div class="cy"></div>
+                        <div class="cx"></div>
+                    </div>
+                </div>	  
+            </div>	
+        </div>
+        </div>    
+    </div>
+    </div>
+</div>
+<footer class = " py-5">
+    <div class = "container">
+        <div class = "row text-white g-4">
+            <div class = "col-md-6 col-lg-3">
+                <a class = "text-uppercase text-decoration-none brand text-white" href = "index.html">VÈ CHÚNG TÔI</a>
+                <p class = "text-white text-muted mt-3">Website bán lẻ thời trang trực tuyến với các thiết kế được lấy cảm hứng từ tinh thần của người trẻ và những màu sắc đặc trưng của Thủ Đô Hà Nội. Phong cách mà Snazzy hướng tới là sự kết hợp giữa văn hóa Hip Hop hiện đại với những món đồ có thể mặc thường ngày. Với mong muốn truyền tải nét văn hóa đặc trưng của Hà Nội rộng rãi hơn trong ngành streetwear nói riêng và thời trang nói chung.</p>
+            </div>
+
+            <div class = "col-md-6 col-lg-3">
+                <h5 class = "fw-light">KẾT NỐI NHANH</h5>
+                <ul class = "list-unstyled">
+                    <li class = "my-3">
+                        <a href = "#" class = "text-white text-decoration-none text-muted">
+                            <i class = "fas fa-chevron-right me-1"></i> TRANG CHỦ
+                        </a>
+                    </li>
+                    <li class = "my-3">
+                        <a href = "#" class = "text-white text-decoration-none text-muted">
+                            <i class = "fas fa-chevron-right me-1"></i> SẢN PHẨM
+                        </a>
+                    </li>
+                    <li class = "my-3">
+                        <a href = "#" class = "text-white text-decoration-none text-muted">
+                            <i class = "fas fa-chevron-right me-1"></i> OUTLET
+                        </a>
+                    </li>
+                    <li class = "my-3">
+                        <a href = "#" class = "text-white text-decoration-none text-muted">
+                            <i class = "fas fa-chevron-right me-1"></i> PHỔ BIẾN
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class = "col-md-6 col-lg-3">
+                <h5 class = "fw-light mb-3">ĐỊA CHỈ</h5>
+                <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                    <span class = "me-3">
+                        <i class = "fas fa-map-marked-alt"></i>
+                    </span>
+                    <span class = "fw-light">
+                        Dang Thuy tram , Binh Thanh , HCM City
+                    </span>
+                </div>
+                <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                    <span class = "me-3">
+                        <i class = "fas fa-envelope"></i>
+                    </span>
+                    <span class = "fw-light">
+                        py.support@gmail.com
+                    </span>
+                </div>
+                <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                    <span class = "me-3">
+                        <i class = "fas fa-phone-alt"></i>
+                    </span>
+                    <span class = "fw-light">
+                        0338212139
+                    </span>
+                </div>
+            </div>
+
+            <div class = "col-md-6 col-lg-3">
+                <h5 class = "fw-light mb-3">THEO DÕI CHÚNG TÔI QUA</h5>
+                <div>
+                    <ul class = "list-unstyled d-flex">
+                        <li>
+                            <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- partial -->
+  <script  src="./js/cart.js"></script>
+</body>
+
+</html>

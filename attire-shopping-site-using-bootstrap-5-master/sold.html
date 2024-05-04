@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Sản phẩm</title>
+  <link rel = "stylesheet" href = "bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <link rel = "stylesheet" href = "css/main.css">
+  <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+
+<!-- navbar -->
+<nav class = "navbar navbar-expand-lg navbar-light fixed-top">
+    <div class = "container container-card">
+        <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
+            <span class = "text-uppercase fw-lighter fa-2x ms-2 text-white">PY</span>
+        </a>
+
+        <div class = "order-lg-2 nav-btns">
+            <button type = "button" class = "btn position-relative">
+                <i class = "fa fa-search text-white"></i>
+            </button>
+            <button type = "button" class = "btn position-relative"> 
+                <a href="signup.html">
+                    <i class = "fa fa-user text-white"></i>
+                </a>
+            </button>
+            <button type = "button" class = "btn position-relative">
+                <a href="cart.html">
+                    <i class = "fa fa-shopping-cart text-white">
+                        <span class="quantity">0</span>
+                    </i>
+                </a>
+            </button>
+        </div>
+
+        <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
+            <span class = "navbar-toggler-icon"></span>
+        </button>
+
+        <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
+            <ul class = "navbar-nav mx-auto text-center">
+                <li class = "nav-item px-2 py-2">
+                    <a class = "nav-link text-uppercase text-white" href = "index.html">Trang chủ</a>
+                </li>
+                <li class = "nav-item px-2 py-2">
+                    <a class = "nav-link text-uppercase text-white" href = "cart.html">sản phẩm</a>
+                </li>
+                <li class = "nav-item px-2 py-2">
+                    <a class = "nav-link text-uppercase text-white" href = "OUTLET.HTML">OUTLET</a>
+                </li>
+                <li class = "nav-item px-2 py-2 border-0 pr-2">
+                    <a class = "nav-link text-uppercase text-white" href = "PHOBIEN.HTML">phổ biến</a>
+                </li>
+            </ul>
+        </div>
+        <div class="list"></div>
+    </div>
+</nav>
+<!-- end of navbar -->
+<div class="row cart-container">
+    
+    <div id="row wrapper">
+        <div class="cart-icon-top">
+    </div>
+    
+    <div class="cart-icon-bottom">
+    </div>
+    
+    <div id="checkout">
+        <a href="snippets.html">Thanh toán</a>
+    </div>
+<!-- sidebar -->
+    <div id="sidebar">
+        <h3>CART</h3>
+        <div id="cart">
+            <span class="empty">No items in cart.</span>       
+        </div>
+        
+        <h3>CATEGORIES</h3>
+        <div class="checklist categories">
+            <ul>
+                <li><a href="cart.html">Tất cả</a></li>
+                <li><a href="jacket.html">Jackets</a></li>
+                <li><a href="pant.html">Quần</a></li>
+                <li><a href="TEE.HTML">Áo phông</a></li>
+                <li><a href="#">Phụ kiện</a></li>
+                <li><a href="#">Giày</a></li>
+                <li><a href="#">Trang sức</a></li>
+                <li><a href="#">Khác</a></li>
+            </ul>
+        </div>
+        
+
+        
+        <h3>SIZES</h3>
+        <div class="checklist sizes">
+            <ul>
+                <li><a href="">XS</a></li>
+                <li><a href="">S</a></li>
+                <li><a href="">M</a></li>
+            </ul>
+            
+            <ul>
+                <li><a href="">L</a></li>
+                <li><a href="">XL</a></li>
+                <li><a href="">XXL</a></li>
+            </ul>        
+        </div>
+        
+         <h3>PRICE RANGE</h3>
+         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/price-range.png" alt="" />
+
+    </div>
+    <div>
+        <h3>SẢN PHẨM HIỆN TẠI NGƯNG BÁN</h3>
+
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- partial -->
+  <script  src="./js/cart.js"></script>
+</body>
+
+</html>
